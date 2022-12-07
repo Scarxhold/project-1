@@ -6,10 +6,10 @@
 using namespace std;
 
 struct book {
-    char age[90];
+
     char surname[30];
     char specialist[30];
-    int year + age;
+    int year ;
 
 };
 
@@ -24,15 +24,10 @@ void show_book(book b)
 
 int main()
 {
-    int a;
-    int a = 0;
-    int b = 0;
-    int i;
-
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
-    if( i=0 ; i < 10 ; i++) 
+
     book a = { " Іванченко С.С.","Паталагоанатом", 4 }; = 0
     show_book(a);
     book b = { " Палагній С.О.","Гениколог", 3 }; = 0 
