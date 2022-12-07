@@ -9,16 +9,16 @@ struct book {
 
     char surname[30];
     char specialist[30];
-    int year ;
+    int year;
 
 };
 
 void show_book(book b)
 {
 
-    cout << "Прізвище лікаря: " << b.surname << endl; +
-    cout << "уацтгаца: " << b.specialist << endl;  +
-    cout << "тест1: " << b.year << endl; +
+    cout << "Прізвище лікаря: " << b.surname << endl; 
+    cout << "уацтгаца: " << b.specialist << endl;  
+    cout << "тест1: " << b.year << endl; 
 
 }
 
@@ -28,11 +28,11 @@ int main()
     SetConsoleOutputCP(1251);
 
 
-    book a = { " Іванченко С.С.","Паталагоанатом", 4 }; = 0
+    book a = { " Іванченко С.С.","Паталагоанатом", 4 }; 
     show_book(a);
-    book b = { " Палагній С.О.","Гениколог", 3 }; = 0 
+    book b = { " Палагній С.О.","Гениколог", 3 }; 
     show_book(b);
-    book c = { " Бельський В.Р.","апрвлв", 4 }; = 0
+    book c = { " Бельський В.Р.","апрвлв", 4 }; 
     show_book(c);
     book d = { " Лихін І.І ","Стоматолог" ,2 };
     show_book(d);
