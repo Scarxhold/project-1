@@ -17,8 +17,8 @@ void show_book(book b)
 {
 
     cout << "Прізвище лікаря: " << b.surname << endl; 
-    cout << "уацтгаца: " << b.specialist << endl;  
-    cout << "тест1: " << b.year << endl; 
+    cout << "Спеціалізація: " << b.specialist << endl;  
+    cout << "Стаж роботи: " << b.year << endl; 
 
 }
 
@@ -32,7 +32,7 @@ int main()
     show_book(a);
     book b = { " Палагній С.О.","Гениколог", 3 }; 
     show_book(b);
-    book c = { " Бельський В.Р.","апрвлв", 4 }; 
+    book c = { " Бельський В.Р.","Хірург", 4 }; 
     show_book(c);
     book d = { " Лихін І.І ","Стоматолог" ,2 };
     show_book(d);
