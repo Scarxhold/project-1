@@ -24,7 +24,9 @@ void show_book(book b)
 
 int main()
 {
-
+    int a;
+    int a = 0;
+    int b = 0;
     SetConsoleCP(1251);
     SetConsoleOutputCP(1251);
 
